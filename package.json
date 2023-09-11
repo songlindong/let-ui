@@ -7,7 +7,10 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.ts,.tsx,.vue --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "dependencies": {
     "vue": "^3.3.4"
@@ -26,6 +29,7 @@
     "prettier": "^2.5.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
+    "vitepress": "^1.0.0-rc.12",
     "vue-tsc": "^1.8.5"
   },
   "lint-staged": {
