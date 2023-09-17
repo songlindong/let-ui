@@ -22,7 +22,9 @@ import Test from './components/Test'
   <!-- 3. disabled -->
   <!-- 4. 块级block -->
   <!-- 5. iconbutton -->
-  <LtButton>确定</LtButton>
+  <LtButton type="primary" size="large">确定</LtButton>
+  <LtButton type="primary" size="medium">确定</LtButton>
+  <LtButton type="primary" size="small">确定</LtButton>
 </template>
 
 <style scoped>
