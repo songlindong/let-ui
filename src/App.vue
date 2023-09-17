@@ -17,6 +17,12 @@ import Test from './components/Test'
     <template #default> aaaa </template>
     <template #title><h3>title</h3></template>
   </Test>
+  <!-- 1. primary, secondary,text -->
+  <!-- 2. 尺寸size -->
+  <!-- 3. disabled -->
+  <!-- 4. 块级block -->
+  <!-- 5. iconbutton -->
+  <LtButton>确定</LtButton>
 </template>
 
 <style scoped>

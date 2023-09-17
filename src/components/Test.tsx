@@ -22,7 +22,7 @@ export default defineComponent({
       }
     }
   },
-  setup(props, { slots }) {
+  setup(_props, { slots }) {
     const count = ref(0)
 
     const inc = () => {

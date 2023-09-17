@@ -2,4 +2,6 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import button from './button'
+
+createApp(App).use(button).mount('#app')
